@@ -38,3 +38,4 @@ jobs:
       run: |
         docker tag ghcr.io/${{ env.REPO_OWNER }}/${{ env.IMAGE_NAME }}:${{ env.BUILD_IMAGE_TAG }} ghcr.io/${{ env.REPO_OWNER }}/${{ env.IMAGE_NAME }}:${{ env.LATEST_IMAGE_TAG }}
         docker push ghcr.io/${{ env.REPO_OWNER }}/${{ env.IMAGE_NAME }}:${{ env.LATEST_IMAGE_TAG }}
+
